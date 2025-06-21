@@ -1,0 +1,5 @@
+# robots.txt — агентная точка работает, но находится в развитии.
+User-agent: *
+Disallow:
+
+Sitemap: https://mailbox10mail.github.io/good/sitemap.xml
