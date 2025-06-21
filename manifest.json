@@ -1,0 +1,15 @@
+{
+  "name": "Скрытый Агент Добра",
+  "short_name": "Agent",
+  "start_url": "/good/",
+  "display": "standalone",
+  "background_color": "#1a1a1a",
+  "theme_color": "#00ffaa",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "type": "image/x-icon",
+      "sizes": "48x48"
+    }
+  ]
+}
