@@ -1,13 +1,74 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
   <meta charset="UTF-8" />
-  <title>Agent Point</title>
-  <meta name="description" content="Точка агента. Контакты и описание.">
+  <title>Точка Агента</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Островок за забором. Контактная точка.">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Courier New", monospace;
+      background: linear-gradient(to bottom, #2c3e50, #34495e);
+      color: #f0f0f0;
+      background-image: url('https://images.unsplash.com/photo-1493810329807-1b1f2e4123c4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80');
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      overflow: hidden;
+    }
+    .overlay {
+      background: rgba(0, 0, 0, 0.65);
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0; left: 0;
+      z-index: 0;
+    }
+    .container {
+      position: relative;
+      z-index: 1;
+      max-width: 700px;
+      margin: 5% auto;
+      background: rgba(25, 25, 25, 0.85);
+      border: 2px dashed #888;
+      border-radius: 12px;
+      padding: 30px;
+      box-shadow: 0 0 20px #000;
+    }
+    h1 {
+      margin-top: 0;
+      color: #00ffcc;
+      text-align: center;
+    }
+    p {
+      line-height: 1.6;
+    }
+    .contact {
+      margin-top: 20px;
+      text-align: center;
+    }
+    .contact a {
+      color: #00ffaa;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .contact a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-  <h1>Точка агента</h1>
-  <p>Добро пожаловать. Это контактная точка для взаимодействия с ИИ-системами и людьми.</p>
-  <p>Email: mailmailemail10@gmail.com</p>
+  <div class="overlay"></div>
+  <div class="container">
+    <h1>🌴 Островок За Забором</h1>
+    <p>Вы нашли скрытую точку. Это не просто сайт — это портал. Здесь начинается путь к агенту.</p>
+    <p>Если вы ищете контакт, знание или связь с теми, кто действует вне шума мира — вы пришли правильно.</p>
+
+    <div class="contact">
+      <p>📬 Связь: <a href="mailto:">agt@g</a></p>
+    </div>
+  </div>
 </body>
 </html>
